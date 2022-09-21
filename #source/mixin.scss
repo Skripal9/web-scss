@@ -1,0 +1,13 @@
+@mixin FsLhFwTa ($fs,$lh,$fw,$ta) {
+    font-size: $fs;
+    line-height: $lh;
+    font-weight: $fw;
+    text-align: $ta;    
+}
+
+@mixin FsLhFw ($fs,$lh,$fw) {
+    font-size: $fs;
+    line-height: $lh;
+    font-weight: $fw;
+}
+

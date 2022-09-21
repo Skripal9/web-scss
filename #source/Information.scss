@@ -1,0 +1,23 @@
+.conteinear {
+    padding: 15px 15px 0 15px;
+    max-width: 1200px;
+
+    .information {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .information__p {
+        padding: 0 0 0 15px;
+      }
+      .information__h2 {
+        @include FsLhFwTa (36px,30px,600,center);
+        margin: 60px 0px 30px 0;
+      }
+      .information-img__img {
+        max-width: 550px;
+        border: 2px solid gray;
+        box-shadow: 5px 5px grey;
+      }
+  }
+  

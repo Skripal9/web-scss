@@ -1,0 +1,30 @@
+.title-baclgraund {
+    max-width: 100%;
+    padding: 0 15px 0 15px;
+
+    .title-backgraund__imgABBYY {
+        max-width: 100%;
+      }
+  }
+
+   .title-centr {
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+    .title-cente__h1 {
+        @include FsLhFwTa (38px,24px,600,center);
+        margin-bottom: 20px;
+      }
+
+      .title-centr__p {
+        @include FsLhFwTa (20px,24px,400,center);
+        margin-bottom: 20px;
+       
+      }
+
+  }
+  
+ 

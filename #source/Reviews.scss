@@ -1,0 +1,22 @@
+.reviews__title {
+    @include FsLhFwTa (36px,30px,600,center);
+    margin: 60px 0 30px 0;
+  }
+
+  .reviews-content {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+    justify-items: center;
+
+    .reviews__img {
+        border: 1px solid red;
+        width: 300px;
+        height: 400px;
+        justify-items: center;
+      }
+      .reviews__text {
+        font-size: 16px;
+        text-align: center;
+      }   
+   }

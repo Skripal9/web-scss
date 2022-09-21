@@ -1,0 +1,30 @@
+.footer {
+    background-color: #0d0d0d;
+    padding: 60px 10px 60px 10px;
+
+    .footer__copy {
+        @include FsLhFwTa (18px,20px,400,center);
+        color: white;
+    }
+  }
+  .footer-link {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+
+    .footer-link__style1 {
+        @include FsLhFwTa (18px,20px,400,center);
+        color: white;
+        text-decoration: none;
+      }
+      .footer-link__style1:hover {
+        text-decoration: underline;
+      }
+      .footer-link__textstyle {
+        @include FsLhFwTa (18px,20px,400,center);
+        color: white;
+        grid-column-start: span 3;
+      }
+  }
+  
